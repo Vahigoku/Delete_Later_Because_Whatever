@@ -13,8 +13,8 @@ public class AgingAger : MonoBehaviour
     {
         currentAge += 1;
         Debug.Log(currentAge);
-        currentAge = 0;
-        Debug.Log("Age is set to 0, restarting...");
+        /*currentAge = 0;
+        Debug.Log("Age is set to 0, restarting...");*/
         Aging();
     }
     public void Aging()
@@ -22,7 +22,7 @@ public class AgingAger : MonoBehaviour
         for(int i = 0; maxAge > currentAge; i ++)
         {
             currentAge += 1;
-            Debug.Log("New ages:");
+            //Debug.Log("New ages:");
             Debug.Log(currentAge);
         }
     }
