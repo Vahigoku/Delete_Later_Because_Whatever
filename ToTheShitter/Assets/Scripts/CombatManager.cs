@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
+
 public class CombatManager : BaseManager
 {
     
@@ -17,4 +17,3 @@ public class CombatManager : BaseManager
         Debug.Log(_state);
     }
 }
-*/

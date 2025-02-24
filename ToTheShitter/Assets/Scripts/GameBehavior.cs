@@ -16,7 +16,7 @@ public class GameBehavior : MonoBehaviour, IManager
 
     public Button WinButton;
     public Button LossButton;
-
+    
     private string _state;
     public string State
     {
@@ -26,6 +26,7 @@ public class GameBehavior : MonoBehaviour, IManager
 
     void Start()
     {
+        
         ItemText.text += _itemsCollected;
         HealthText.text += _playerHP;
         Initialize();
